@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Awtad - Official Website</title>
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<meta content="Webflow" name="generator">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+		<script src="ajax/libs/webfont/1.4.7/webfont.js"></script>
+		<script type="text/javascript">
+			WebFont.load({
+				google: {
+					families: ["Montserrat:400,700", "Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic", "Roboto:100,300,300italic,regular,italic,500,700,900", "Lora:regular,italic,700"]
+				}
+			});
+		</script>
+		<script src="js/modernizr-2.7.1.js" type="text/javascript"></script>
+		<link href="img/Favicon.png" rel="shortcut icon" type="image/x-icon">
+		<link href="img/Webclip.jpg" rel="apple-touch-icon">
+	</head>
+	<body>
+		<div class="donation-popup" data-ix="hide-donation-popup">
+			<div class="popup-window" data-ix="hide-popup-window">
+				<div class="popup-content-block">
+					<div class="popup-title">Make a donation</div>
+					<div class="popup-title subtitle">Please finish the form below</div>
+					<a class="close-popup-button w-inline-block" data-ix="close-donation-popup" href="#">
+						<img class="close-popup-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e07643b34bd36b03b0789a_Icon-close.png">
+					</a>
+				</div>
+
+				<div class="popup-form w-form">
+					<form data-name="Donation Form" data-redirect="http://www.paypal.com" id="wf-form-Donation-Form" name="wf-form-Donation-Form">
+						<input class="field w-input" data-name="Name" id="name" maxlength="256" name="name" placeholder="Enter your name" required="required" type="text">
+						<input class="field w-input" data-name="Email address" id="Email-address" maxlength="256" name="Email-address" placeholder="Email address" required="required" type="email">
+						<input class="field w-input" data-name="Case" id="Case" maxlength="256" name="Case" placeholder="Donate for what cause?" required="required" type="text">
+						<input class="field w-input" data-name="Amount 3" id="Amount-3" maxlength="256" name="Amount-3" placeholder="Amount in USD" required="required" type="text">
+						<input class="button submit-button w-button" data-wait="Please wait..." type="submit" value="Donate Now!">
+					</form>
+					<div class="success-bg w-form-done">
+						<p>Thank you! Your submission has been received!</p>
+					</div>
+					<div class="error-bg w-form-fail">
+						<p>Oops! Something went wrong while submitting the form</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="top-section">
+			<div class="w-container">
+				<a class="logo-container w-clearfix w-inline-block" href="index.html">
+					<img class="logo-image" sizes="(max-width: 479px) 20px, (max-width: 991px) 30px, 40px" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e08bca018bcc3842f66222_Logo.png" srcset="http://uploads.webflow.com/5440c8f92df526b94a5e4b54/55e08bca018bcc3842f66222_Logo-p-500x500.png 500w, http://uploads.webflow.com/5440c8f92df526b94a5e4b54/55e08bca018bcc3842f66222_Logo.png 600w">
+					<h1 class="logo">we<strong>Care</strong></h1>
+				</a>
+				<div class="header-right-block w-clearfix">
+					<a class="top-some-block w-hidden-small w-hidden-tiny w-inline-block" href="http://www.facebook.com/" target="_blank">
+						<img class="top-social-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55df8d92e7ff55996458f809_Icon-facebook.png">
+					</a>
+					<a class="top-some-block w-hidden-small w-hidden-tiny w-inline-block" href="http://www.twitter.com/" target="_blank">
+						<img class="top-social-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55df8d9ce0d3619764386a67_Icon-twitter.png">
+					</a>
+					<a class="top-some-block w-hidden-small w-hidden-tiny w-inline-block" href="http://www.youtube.com/" target="_blank">
+						<img class="top-social-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55df8da6ed2d6f2043759618_Icon-youtube.png">
+					</a>
+					<a class="top-some-block w-hidden-small w-hidden-tiny w-inline-block" href="http://www.linkedin.com/" target="_blank">
+						<img class="top-social-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55df8daf8513421e43d63609_Icon-linkedin.png">
+					</a>
+					<a class="button top-donate-button w-button" data-ix="open-donation-popup" href="#">Donate now</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="navbar w-nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
+			<div class="w-container">
+				<nav class="nav-menu w-nav-menu" role="navigation">
+					<a class="nav-link w-nav-link" href="index.html">Home</a>
+					<div class="dropdown w-dropdown" data-delay="0">
+						<div class="dropdown-nav-link nav-link w-dropdown-toggle">
+							<div>About us</div>
+							<div class="dropdown-icon w-icon-dropdown-toggle">
+
+							</div>
+						</div>
+						<nav class="dropdown-list w-dropdown-list">
+							<a class="dropdown-link w-dropdown-link" href="about-us.html">Our Story</a>
+							<a class="dropdown-link w-dropdown-link" href="our-mission.html">Our Mission</a>
+							<a class="dropdown-link w-dropdown-link" href="become-a-volunteer.html">Become a Volunteer</a>
+						</nav>
+					</div>
+					<a class="nav-link w-nav-link" href="causes-overview.html">Our Causes</a>
+					<a class="nav-link w-nav-link" href="stories-overview.html">stories</a>
+					<a class="nav-link w-nav-link" href="gallery.html">Gallery</a>
+					<a class="nav-link w-nav-link" href="blog-archive.html">Blog</a>
+					<a class="nav-link w-nav-link" href="gallery-copy.html">Contact us</a>
+				</nav>
+				<div class="menu-button w-nav-button">
+					<div class="w-icon-nav-menu"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="page-header">
+			<div class="page-header-overlay">
+				<div class="container w-container">
+					<h2 class="page-header-title" data-ix="fade-in-scroll">Stories we fight for</h2>
+					<h2 class="page-header-title subtitle" data-ix="fade-in-scroll-2">Examples of success stories</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="section">
+			<div class="w-container">
+				<div class="w-row">
+					<div class="left-column w-col w-col-6" data-ix="fade-in-scroll">
+						<h2 class="column-intro-title section-title">When supporting us, we fight together to survive.</h2>
+						<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros tristique.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. <a class="link" href="#">Learn more</a></p>
+						<div class="info-row w-row">
+							<div class="w-col w-col-6">
+								<div class="small-info-block w-clearfix">
+									<img class="overall-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e0823c018bcc3842f65db3_Icon-hands-yellow.png">
+									<h4>Our mission</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse va in eros el.</p>
+								</div>
+							</div>
+							<div class="w-col w-col-6">
+								<div class="small-info-block w-clearfix">
+									<img class="overall-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e08237c9ac027458d2c8c6_Icon-home-yellow.png">
+									<h4>Our goals</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse va in eros el.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="right-column w-col w-col-6">
+						<a class="highlight-image-block w-inline-block" data-ix="fade-in-scroll-2" href="404.html">
+							<div class="highlight-block-overlay">
+								<h3>We help Nepal</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<div class="button yellow">Read more</div>
+							</div>
+						</a>
+						<a class="_2 highlight-image-block w-inline-block" data-ix="fade-in-scroll-3" href="404.html">
+							<div class="highlight-block-overlay">
+								<h3>We help India</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<div class="button yellow">Read more</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section yellow">
+			<div class="w-container">
+				<div class="stories-list w-dyn-list">
+					<div class="w-clearfix w-dyn-items w-row">
+						<div class="stories-list-item w-col w-col-3 w-dyn-item" data-ix="fade-in-scroll">
+							<div class="item-block-wrapper">
+								<a class="story-image-link-block w-inline-block" href="stories/help-sarah-go-to-primary-school.html">
+									<img class="stories-block-image" sizes="(max-width: 479px) 92vw, (max-width: 767px) 93vw, (max-width: 991px) 21vw, 220px" src="../daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a9923c15b8a5868546e0a_Photo-6.jpg" srcset="https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a9923c15b8a5868546e0a_Photo-6-p-500x.jpeg 500w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a9923c15b8a5868546e0a_Photo-6-p-800x.jpeg 800w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a9923c15b8a5868546e0a_Photo-6-p-1080x.jpeg 1080w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a9923c15b8a5868546e0a_Photo-6-p-1600x.jpeg 1600w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a9923c15b8a5868546e0a_Photo-6.jpg 1700w">
+								</a>
+								<div class="item-block stories">
+									<div class="story-success-block">Success!</div>
+									<a class="item-block-title small" href="stories/help-sarah-go-to-primary-school.html">Help Sarah go to primary school</a>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+									<a class="black button item-block-button" href="stories/help-sarah-go-to-primary-school.html">Read more</a>
+								</div>
+							</div>
+						</div>
+						<div class="stories-list-item w-col w-col-3 w-dyn-item" data-ix="fade-in-scroll">
+							<div class="item-block-wrapper">
+								<a class="story-image-link-block w-inline-block" href="stories/help-protect-traditions-in-binh-vietnam.html">
+									<img class="stories-block-image" sizes="(max-width: 479px) 92vw, (max-width: 767px) 93vw, (max-width: 991px) 21vw, 220px" src="../daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a7017c15b8a5868546750_Photo-2.jpg" srcset="https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a7017c15b8a5868546750_Photo-2-p-500x.jpeg 500w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a7017c15b8a5868546750_Photo-2-p-800x.jpeg 800w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a7017c15b8a5868546750_Photo-2-p-1080x.jpeg 1080w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a7017c15b8a5868546750_Photo-2-p-1600x.jpeg 1600w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a7017c15b8a5868546750_Photo-2.jpg 1800w">
+								</a>
+								<div class="item-block stories">
+									<div class="story-success-block">Success!</div>
+									<a class="item-block-title small" href="stories/help-protect-traditions-in-binh-vietnam.html">Help protect traditions in Binh (Vietnam)</a>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+									<a class="black button item-block-button" href="stories/help-protect-traditions-in-binh-vietnam.html">Read more</a>
+								</div>
+							</div>
+						</div>
+						<div class="stories-list-item w-col w-col-3 w-dyn-item" data-ix="fade-in-scroll">
+							<div class="item-block-wrapper"><a class="story-image-link-block w-inline-block" href="stories/recycle-your-toys-give-them-a-second-life.html">
+								<img class="stories-block-image" sizes="(max-width: 479px) 92vw, (max-width: 767px) 93vw, (max-width: 991px) 21vw, 220px" src="../daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a6fcc5a35dea101d71b3b_Photo-1.jpg" srcset="https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a6fcc5a35dea101d71b3b_Photo-1-p-500x.jpeg 500w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a6fcc5a35dea101d71b3b_Photo-1-p-800x.jpeg 800w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a6fcc5a35dea101d71b3b_Photo-1-p-1080x.jpeg 1080w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a6fcc5a35dea101d71b3b_Photo-1-p-1600x.jpeg 1600w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a6fcc5a35dea101d71b3b_Photo-1.jpg 1700w">
+								</a>
+								<div class="item-block stories">
+									<div class="story-success-block">Success!</div>
+									<a class="item-block-title small" href="stories/recycle-your-toys-give-them-a-second-life.html">Recycle your toys, give them a second life</a>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+									<a class="black button item-block-button" href="stories/recycle-your-toys-give-them-a-second-life.html">Read more</a>
+								</div>
+							</div>
+						</div>
+						<div class="stories-list-item w-col w-col-3 w-dyn-item" data-ix="fade-in-scroll">
+							<div class="item-block-wrapper">
+								<a class="story-image-link-block w-inline-block" href="stories/help-johan-restore-his-home-in-south-africa.html">
+									<img class="stories-block-image" sizes="(max-width: 479px) 92vw, (max-width: 767px) 93vw, (max-width: 991px) 21vw, 220px" src="../daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a6cad96da66bb2114cc98_Photo-7.jpg" srcset="https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a6cad96da66bb2114cc98_Photo-7-p-500x.jpeg 500w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a6cad96da66bb2114cc98_Photo-7-p-800x.jpeg 800w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a6cad96da66bb2114cc98_Photo-7-p-1080x.jpeg 1080w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a6cad96da66bb2114cc98_Photo-7-p-1600x.jpeg 1600w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a6cad96da66bb2114cc98_Photo-7.jpg 1700w">
+								</a>
+								<div class="item-block stories">
+									<div class="story-success-block">Success!</div>
+									<a class="item-block-title small" href="stories/help-johan-restore-his-home-in-south-africa.html">Help Johan restore his home in South-Africa</a>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+									<a class="black button item-block-button" href="stories/help-johan-restore-his-home-in-south-africa.html">Read more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section">
+			<div class="container w-container">
+				<div class="_2-column-row w-row">
+					<div class="column-left w-col w-col-7">
+						<h3 class="progress-bar-title">Our donators helped us raise a total of:</h3>
+						<h3 class="amount progress-bar-title">$156.453</h3>
+					</div>
+					<div class="column-right donation-right w-col w-col-5">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum.</p>
+						<a class="button w-button" href="404.html">Learn more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="color section">
+			<div class="container w-container">
+				<div class="centered title-wrapper">
+					<h2 class="section-title" data-ix="fade-in-scroll">What can you do to help?</h2>
+					<h2 class="section-title subtitle" data-ix="fade-in-scroll">There's a lot&nbsp;of things we need you for.</h2>
+					<div class="section-divider-line" data-ix="fade-in-scroll"></div>
+				</div>
+				<div class="process-row w-row">
+					<div class="overall-column w-col w-col-3 w-col-small-6 w-col-tiny-6" data-ix="fade-in-scroll">
+						<div class="round-icon-wrapper">
+							<img src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e03a81d960e71226580f06_Icon-globe.png">
+						</div>
+						<h4>Donate now</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+					</div>
+					<div class="overall-column w-col w-col-3 w-col-small-6 w-col-tiny-6" data-ix="fade-in-scroll-2">
+						<div class="round-icon-wrapper">
+							<img src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e07c222c3ec31326fcc50e_Icon-arrow-right-white.png"></div>
+						<h4>Take action</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+					</div>
+					<div class="overall-column w-col w-col-3 w-col-small-6 w-col-tiny-6" data-ix="fade-in-scroll-3">
+						<div class="round-icon-wrapper">
+							<img src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e07c2c76cf136903ecedbb_Icon-users-white.png">
+						</div>
+						<h4>Become a partner</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+					</div>
+					<div class="overall-column w-col w-col-3 w-col-small-6 w-col-tiny-6" data-ix="fade-in-scroll-4">
+						<div class="round-icon-wrapper">
+							<img src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e07c35b34bd36b03b07a58_Icon-facebook.png">
+						</div>
+						<h4>Follow us</h4>
+						<p>Be sure to follow us on:</p>
+						<a class="social-button w-inline-block" href="http://www.facebook.com/" target="_blank">
+							<img class="small-social-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55df8d92e7ff55996458f809_Icon-facebook.png">
+						</a>
+						<a class="social-button w-inline-block" href="http://www.twitter.com/" target="_blank">
+							<img class="small-social-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55df8d9ce0d3619764386a67_Icon-twitter.png">
+						</a>
+						<a class="social-button w-inline-block" href="http://www.linkedin.com/" target="_blank">
+							<img class="small-social-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55df8daf8513421e43d63609_Icon-linkedin.png">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="w-container">
+				<div class="footer-row w-row">
+					<div class="footer-column w-col w-col-3">
+						<h5 class="footer-title">Follow us</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros el</p>
+						<div class="footer-social-wrapper w-clearfix">
+							<a class="top-some-block w-inline-block" href="http://www.facebook.com/" target="_blank">
+								<img class="top-social-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55df8d92e7ff55996458f809_Icon-facebook.png">
+							</a>
+							<a class="top-some-block w-inline-block" href="http://www.twitter.com/" target="_blank">
+								<img class="top-social-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55df8d9ce0d3619764386a67_Icon-twitter.png">
+							</a>
+							<a class="top-some-block w-inline-block" href="http://www.youtube.com/" target="_blank">
+								<img class="top-social-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55df8da6ed2d6f2043759618_Icon-youtube.png">
+							</a>
+							<a class="top-some-block w-inline-block" href="http://www.linkedin.com/" target="_blank">
+								<img class="top-social-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55df8daf8513421e43d63609_Icon-linkedin.png">
+							</a>
+						</div>
+					</div>
+					<div class="footer-column w-col w-col-3">
+						<h5 class="footer-title">Contact us</h5>
+						<ul class="footer-contact-list w-list-unstyled">
+							<li class="footer-contact-list-item">
+								<img class="footer-contact-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e04933d960e71226581324_icon-home-black.png">
+								<p>Weteringschans 33,&nbsp;<br>2788&nbsp;DE&nbsp;Amsterdam</p>
+							</li>
+							<li class="footer-contact-list-item">
+								<p>
+									<a class="link footer-link" href="#">+&nbsp;33 304 558 332</a>
+								</p>
+								<img class="footer-contact-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e0494bd960e7122658132f_Icon-phone.png">
+							</li>
+							<li class="footer-contact-list-item">
+								<p>
+									<a class="link footer-link" href="#">info@wecare.com</a>
+								</p>
+								<img class="footer-contact-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e04954d960e71226581333_Icon-mail.png">
+							</li>
+						</ul>
+					</div>
+					<div class="footer-column last w-col w-col-6">
+						<h5 class="footer-title">Newsletter</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros el.&nbsp;Lorem ipsum dolor sit amet.</p>
+						<div class="newsletter-form w-form">
+							<form class="w-clearfix" data-name="Newsletter Form" id="wf-form-Newsletter-Form" name="wf-form-Newsletter-Form">
+								<input class="newsletter-field w-input" data-name="Email" id="email" maxlength="256" name="email" placeholder="Enter your email address" required="required" type="email">
+								<input class="newsletter-submit w-button" data-wait="Please wait..." type="submit" value="Submit">
+							</form>
+							<div class="success-bg w-form-done">
+								<p>Thank you! Your submission has been received!</p>
+							</div>
+							<div class="error-bg w-form-fail">
+								<p>Oops! Something went wrong while submitting the form</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom-footer">
+				<div class="container w-container">
+					<div class="bottom-footer-row w-row">
+						<div class="bottom-footer-col-left w-col w-col-6">
+							<div class="bottom-footer-text">Copyright © WeCare 2015</div>
+						</div>
+						<div class="bottom-footer-col-right w-col w-col-6">
+							<div class="bottom-footer-text">Template design by&nbsp;
+								<a class="link bottom-footer-link" target="_blank" href="http://www.studiocorvus.com/">Studio Corvus</a>
+								&nbsp;- 
+								<a class="link" href="https://webflow.com/templates/designer/corvus" target="_blank">View all templates</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- malaksh da3wa bl libraries dih allah ye5alik -->
+		<script src="ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+		<script src="js/webflow.6a2c15e96.js" type="text/javascript"></script>
+	</body>
+</html>

@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html data-wf-page="5440c8f92df526b94a5e4b55" data-wf-site="5440c8f92df526b94a5e4b54">
+	<head>
+		<meta charset="utf-8">
+		<title>Awtad - Official Website</title>
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script src="ajax/libs/webfont/1.4.7/webfont.js"></script>
+		<script type="text/javascript">
+			WebFont.load({
+				google: {
+					families: ["Montserrat:400,700", "Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic", "Roboto:100,300,300italic,regular,italic,500,700,900", "Lora:regular,italic,700"]
+				}
+			});
+		</script>
+		<script src="js/modernizr-2.7.1.js" type="text/javascript"></script>
+		<link href="img/Favicon.png" rel="shortcut icon" type="image/x-icon">
+		<link href="img/Webclip.jpg" rel="apple-touch-icon">
+	</head>
+
+	<body>
+		<div class="donation-popup" data-ix="hide-donation-popup">
+			<div class="popup-window" data-ix="hide-popup-window">
+				<div class="popup-content-block">
+					<div class="popup-title">Make a donation</div>
+					<div class="popup-title subtitle">Please finish the form below</div>
+					<a class="close-popup-button w-inline-block" data-ix="close-donation-popup" href="#"><img class="close-popup-icon" src="img/icons/Icon-close.png"></a>
+				</div>
+				<div class="popup-form w-form">
+					<form data-name="Donation Form" data-redirect="http://www.paypal.com" id="wf-form-Donation-Form" name="wf-form-Donation-Form">
+						<input class="field w-input" data-name="Name" id="name" maxlength="256" name="name" placeholder="Enter your name" required="required" type="text">
+						<input class="field w-input" data-name="Email address" id="Email-address" maxlength="256" name="Email-address" placeholder="Email address" required="required" type="email">
+						<input class="field w-input" data-name="Case" id="Case" maxlength="256" name="Case" placeholder="Donate for what cause?" required="required" type="text">
+						<input class="field w-input" data-name="Amount 3" id="Amount-3" maxlength="256" name="Amount-3" placeholder="Amount in USD" required="required" type="text">
+						<input class="button submit-button w-button" data-wait="Please wait..." type="submit" value="Donate Now!">
+					</form>
+					<div class="success-bg w-form-done">
+						<p>Thank you! Your submission has been received!</p>
+					</div>
+					<div class="error-bg w-form-fail">
+						<p>Oops! Something went wrong while submitting the form</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="top-section">
+			<div class="w-container">
+				<div class="row">
+					<div class="col-3">
+						<a class="logo-container w-clearfix w-inline-block" href="index.html">
+							<img class="logo-image logo" sizes="(max-width: 479px) 20px, (max-width: 991px) 30px, 40px" src="img/logo/awtad%20logo.png" style="width: 150px; height:60px;">
+							<!--                <h1 class="logo"><strong>Awtad</strong></h1>-->
+						</a>
+					</div>
+					<div class="col-5">
+						<div class="header-right-block w-clearfix">
+							<a class="top-some-block w-hidden-small w-hidden-tiny w-inline-block" href="http://www.facebook.com/" target="_blank">
+								<img class="top-social-icon" src="img/icons/55df8d92e7ff55996458f809_Icon-facebook.png">
+							</a>
+							<a class="top-some-block w-hidden-small w-hidden-tiny w-inline-block" href="http://www.twitter.com/" target="_blank">
+								<img class="top-social-icon" src="img/icons/Icon-twitter.png">
+							</a>
+							<a class="top-some-block w-hidden-small w-hidden-tiny w-inline-block" href="http://www.youtube.com/" target="_blank">
+								<img class="top-social-icon" src="img/icons/Icon-youtube.png">
+							</a>
+							<a class="top-some-block w-hidden-small w-hidden-tiny w-inline-block" href="http://www.linkedin.com/" target="_blank">
+								<img class="top-social-icon" src="img/icons/Icon-linkedin.png">
+							</a>
+							<a class="button top-donate-button w-button" data-ix="open-donation-popup" href="#">Donate now</a>
+						</div>
+					</div>
+					<!--
+<div class="col-4">
+<div class="login-container">
+<form action="/action_page.php">
+<div class="row">
+<div class="col-6">
+<input type="text" placeholder="Username" name="username">
+<input type="text" placeholder="Password" name="psw">
+</div>
+<div class="col-6">
+<button class="btn btn-light">Login</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+-->
+				</div>
+			</div>
+		</div>
+
+		<div class="navbar w-nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
+			<div class="w-container">
+				<nav class="nav-menu w-nav-menu" role="navigation"><a class="nav-link w-nav-link" href="index.html">Home</a>
+					<div class="dropdown w-dropdown" data-delay="0">
+						<div class="dropdown-nav-link nav-link w-dropdown-toggle">
+							<div>About</div>
+							<div class="dropdown-icon w-icon-dropdown-toggle"></div>
+						</div>
+						<nav class="dropdown-list w-dropdown-list">
+							<a class="dropdown-link w-dropdown-link" href="about-us.html">Our Story</a>
+							<a class="dropdown-link w-dropdown-link" href="our-mission.html">Our Impact</a>
+							<a class="dropdown-link w-dropdown-link" href="become-a-volunteer.html">Become a Volunteer</a>
+						</nav>
+					</div>
+					<div class="dropdown w-dropdown" data-delay="0">
+						<div class="dropdown-nav-link nav-link w-dropdown-toggle">
+							<div>Projects</div>
+							<div class="dropdown-icon w-icon-dropdown-toggle"></div>
+						</div>
+						<nav class="dropdown-list w-dropdown-list">
+							<div class="dropdown-link w-dropdown-link" data-toggle="dropdown">
+								Creative industries &nbsp
+								<div class="dropdown-icon w-icon-dropdown-toggle"></div>
+							</div>
+							<li class="dropdown-menu w-dropdown-menu" style="margin-left: 180px;top: 0px;">
+								<a class="dropdown-link w-dropdown-link" href="#">anamel</a>
+								<a class="dropdown-link w-dropdown-link" href="#">entrepreneurship</a>
+							</li>
+							<a class="dropdown-link w-dropdown-link" href="#">training for employability</a>
+							<!--
+<a class="dropdown-link w-dropdown-link" href="#">Our Impact</a>
+<a class="dropdown-link w-dropdown-link" href="#">Become a Volunteer</a>
+-->
+						</nav>
+					</div>
+					<a class="nav-link w-nav-link" href="gallery.html">Photos</a>
+					<a class="nav-link w-nav-link" href="blog-archive.html">Blog</a>
+					<a class="nav-link w-nav-link" href="gallery-copy.html">Contact us</a>
+				</nav>
+				<div class="menu-button w-nav-button">
+					<div class="w-icon-nav-menu"></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Content Begin -->
+
+		<!-- Home-Slider Begin -->
+		<div class="home-slider w-slider" data-animation="slide" data-autoplay="1" data-delay="4000" data-duration="500" data-easing="ease-in-out-quart" data-infinite="1">
+			<div class="w-slider-mask">
+				<div class="home-slide w-slide">
+					<div class="home-slide-overlay">
+						<div class="home-slide-container w-container">
+							<div class="home-slide-content-wrapper">
+								<h2 class="slide-title" data-ix="slider-title">Recycle your old toys</h2>
+								<h2 class="_2 slide-title" data-ix="slider-title-2">Your Old toys enrich other lives</h2>
+								<p data-ix="slider-title-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.&nbsp;Lorem ipsum dolor sit amet, consectetur.</p>
+								<a class="button slider-button" data-ix="slider-title-4" href="causes-overview.html">View more causes</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="_2 home-slide w-slide">
+					<div class="home-slide-overlay">
+						<div class="home-slide-container w-container">
+							<div class="home-slide-content-wrapper">
+								<h2 class="slide-title" data-ix="slider-title">Ancient village</h2>
+								<h2 class="_2 slide-title" data-ix="slider-title-2">"We want to keep our traditions"</h2>
+								<p data-ix="slider-title-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.&nbsp;Lorem ipsum dolor sit amet, consectetur.</p>
+								<a class="button slider-button" data-ix="slider-title-4" href="causes-overview.html">View more causes</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="_3 home-slide w-slide">
+					<div class="home-slide-overlay">
+						<div class="home-slide-container w-container">
+							<div class="home-slide-content-wrapper">
+								<h2 class="slide-title" data-ix="slider-title">Orphan's shelter</h2>
+								<h2 class="_2 slide-title" data-ix="slider-title-2">"I want to visit my parents"</h2>
+								<p data-ix="slider-title-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.&nbsp;Lorem ipsum dolor sit amet, consectetur.</p>
+								<a class="button slider-button" data-ix="slider-title-4" href="#">View more causes</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="_4 home-slide w-slide">
+					<div class="home-slide-overlay">
+						<div class="home-slide-container w-container">
+							<div class="home-slide-content-wrapper">
+								<h2 class="slide-title" data-ix="slider-title">A child's wish</h2>
+								<h2 class="_2 slide-title" data-ix="slider-title-2">"go to school and make friends"</h2>
+								<p data-ix="slider-title-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.&nbsp;Lorem ipsum dolor sit amet, consectetur.</p>
+								<a class="button slider-button" data-ix="slider-title-4" href="causes-overview.html">View more causes</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="home-slider-arrow w-hidden-tiny w-slider-arrow-left">
+				<div class="w-icon-slider-left"></div>
+			</div>
+			<div class="home-slider-arrow w-hidden-tiny w-slider-arrow-right">
+				<div class="w-icon-slider-right"></div>
+			</div>
+		</div> <!-- Home-Slider End -->
+
+		<!-- About Us Section Begin -->
+		<div class="section">
+			<div class="w-container">
+				<div class="w-row">
+					<div class="left-column w-col w-col-6" data-ix="fade-in-scroll">
+						<h2 class="column-intro-title section-title">When supporting us, we fight together to survive.</h2>
+						<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros tristique.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. <a class="link" href="about-us.html">Learn more</a></p>
+						<div class="info-row w-row">
+							<div class="w-col w-col-6">
+								<div class="small-info-block w-clearfix"><img class="overall-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e0823c018bcc3842f65db3_Icon-hands-yellow.png">
+									<h4>Our mission</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse va in eros el.</p>
+								</div>
+							</div>
+							<div class="w-col w-col-6">
+								<div class="small-info-block w-clearfix"><img class="overall-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e08237c9ac027458d2c8c6_Icon-home-yellow.png">
+									<h4>Our goals</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse va in eros el.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="right-column w-col w-col-6">
+						<a class="highlight-image-block w-inline-block" data-ix="fade-in-scroll" href="our-mission.html">
+							<div class="highlight-block-overlay">
+								<h3>We help Nepal</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<div class="button yellow">Read more</div>
+							</div>
+						</a>
+						<a class="_2 highlight-image-block w-inline-block" data-ix="fade-in-scroll-2" href="about-us.html">
+							<div class="highlight-block-overlay">
+								<h3>We help India</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<div class="button yellow">Read more</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div><!-- Section End -->
+
+		<!-- Tools section Begin -->
+		<div class="light-image-section-overlay with-image">
+			<div class="container w-container">
+				<div id="accordion" class="accordion">
+					<div class="card">
+						<div class="card-header">
+							<a class="card-link" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+								Creative industries
+							</a>
+						</div>
+						<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-2 pt-4 text-center"> <img class="card-body-img" src="img/third_party_logistics.png" alt="Image"> </div>
+									<div class="col-8">
+										<div class="title"> <a href="#">Anamel</a></div>
+										<div class="desc">
+											<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#c1">sell retails</button>
+											<div id="c1" class="collapse">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+												sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+											</div>
+											<br>
+											<br>
+											<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#c2">sell wholesale</button>
+											<div id="c2" class="collapse">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+												sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+											</div>
+											<br>
+											<br>
+											<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#c3">logistics</button>
+											<div id="c3" class="collapse">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+												sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row mt-4">
+									<div class="col-2 pt-4 text-center"> <img class="card-body-img" src="img/third_party_logistics.png" alt="Image"> </div>
+									<div class="col-8">
+										<div class="title"> <a href="#">Entrepreneurship</a> </div>
+										<div class="desc">
+											<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#c4">Thinkubator</button>
+											<div id="c4" class="collapse">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+												sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+											</div>
+											<br>
+											<br>
+											<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#c5">StartUP</button>
+											<div id="c5" class="collapse">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+												sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+											</div>
+											<br>
+											<br>
+											<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#c6">ScaleUP</button>
+											<div id="c6" class="collapse">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+												sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="accordion" class="accordion">
+					<div class="card">
+						<div class="card-header" id="headingTwo">
+							<a class="card-link" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								Training for employability
+							</a>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+							<div class="card-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae deleniti recusandae rerum sint nobis natus aspernatur libero illum a maiores facilis provident sunt, soluta nam neque autem quasi vitae qui.
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+			</div>
+		</div><!-- Tools section End -->
+
+		<!-- Blog Section Begin -->
+		<div class="section">
+			<div class="w-container">
+				<div class="w-row">
+					<div class="info-block-col w-col w-col-5" data-ix="fade-in-scroll">
+						<div class="info-block"><img class="info-block-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e07dc3d960e71226582163_Icon-hands.png">
+							<h3 class="info-title">SHARE THE THINGS THAT matter</h3>
+							<h3 class="_2 info-title">Lorem ipsum dolor sit a viverra ornar.</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornar.</p>
+							<a class="button yellow" href="about-us.html">Learn more</a>
+						</div>
+					</div>
+					<div class="right-column w-col w-col-7" data-ix="fade-in-scroll-2">
+						<div class="title-wrapper">
+							<h2 class="section-title">Recent Blog posts</h2>
+							<h2 class="section-title subtitle">Some recent updates from us:</h2>
+						</div>
+						<div class="recent-blog-posts-list w-dyn-list">
+							<div class="w-dyn-items">
+								<div class="recent-blog-item w-dyn-item">
+									<a class="news-item-block w-clearfix w-inline-block" href="blog/we-just-returned-from-our-trip-to-myanmar-and-bangladesh-2.html"><img class="recent-news-thumb" sizes="(max-width: 479px) 73vw, (max-width: 767px) 130px, 150px" src="../daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a9cf5c15b8a5868546ec1_Blog-thumb-3.jpg" srcset="https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a9cf5c15b8a5868546ec1_Blog-thumb-3-p-500x.jpeg 500w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a9cf5c15b8a5868546ec1_Blog-thumb-3.jpg 600w">
+										<h4 class="recent-news-title">We just returned from our trip to Myanmar and Bangladesh</h4><img class="news-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e03ef1b34bd36b03b06752_Icon-clock.png">
+										<h4 class="date recent-news-title">October 11, 2015</h4>
+										<div class="button yellow">Read more</div>
+									</a>
+								</div>
+								<div class="recent-blog-item w-dyn-item">
+									<a class="news-item-block w-clearfix w-inline-block" href="blog/a-person-has-an-inner-strength-to-recover-after-a-distaster.html"><img class="recent-news-thumb" sizes="(max-width: 479px) 73vw, (max-width: 767px) 130px, 150px" src="../daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a9c6f5a35dea101d7231d_Blog-thumb-4.jpg" srcset="https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a9c6f5a35dea101d7231d_Blog-thumb-4-p-500x.jpeg 500w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a9c6f5a35dea101d7231d_Blog-thumb-4.jpg 600w">
+										<h4 class="recent-news-title">A person has an inner strength to recover after a distaster</h4><img class="news-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e03ef1b34bd36b03b06752_Icon-clock.png">
+										<h4 class="date recent-news-title">October 11, 2015</h4>
+										<div class="button yellow">Read more</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- Section End -->
+
+		<!-- Image Section Begin -->
+		<div class="image-section">
+			<div class="image-section-overlay">
+				<div class="w-container">
+					<div class="image-section-text-block">
+						<h2 class="_2 slide-title" data-ix="fade-in-scroll">Become a volunteer!</h2>
+						<p data-ix="fade-in-scroll">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornar</p>
+						<a class="button w-button yellow" data-ix="fade-in-scroll" href="become-a-volunteer.html">Join us now!</a>
+					</div>
+				</div>
+			</div>
+		</div><!-- Image Section End -->
+
+		<!-- light-image-section Begin -->
+		<div class="light-image-section success">
+			<div class="light-image-section-overlay success-stories">
+				<div class="w-container">
+					<div class="success-story-block">
+						<div class="stories-list w-dyn-list">
+							<div class="w-clearfix w-dyn-items w-row">
+								<div class="stories-list-item w-col w-col-6 w-dyn-item">
+									<div class="item-block-wrapper">
+										<a class="story-image-link-block w-inline-block" href="stories/help-sarah-go-to-primary-school.html">
+											<img class="stories-block-image" sizes="(max-width: 479px) 92vw, (max-width: 767px) 93vw, (max-width: 991px) 26vw, 272px" src="../daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a9923c15b8a5868546e0a_Photo-6.jpg" srcset="https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a9923c15b8a5868546e0a_Photo-6-p-500x.jpeg 500w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a9923c15b8a5868546e0a_Photo-6-p-800x.jpeg 800w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a9923c15b8a5868546e0a_Photo-6-p-1080x.jpeg 1080w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a9923c15b8a5868546e0a_Photo-6-p-1600x.jpeg 1600w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a9923c15b8a5868546e0a_Photo-6.jpg 1700w">
+										</a>
+										<div class="item-block stories">
+											<div class="story-success-block">Success!</div><a class="item-block-title small" href="stories/help-sarah-go-to-primary-school.html">Help Sarah go to primary school</a>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p><a class="black button item-block-button" href="stories/help-sarah-go-to-primary-school.html">Read more</a>
+										</div>
+									</div>
+								</div>
+								<div class="stories-list-item w-col w-col-6 w-dyn-item">
+									<div class="item-block-wrapper">
+										<a class="story-image-link-block w-inline-block" href="stories/help-protect-traditions-in-binh-vietnam.html">
+											<img class="stories-block-image" sizes="(max-width: 479px) 92vw, (max-width: 767px) 93vw, (max-width: 991px) 26vw, 272px" src="../daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a7017c15b8a5868546750_Photo-2.jpg" srcset="https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a7017c15b8a5868546750_Photo-2-p-500x.jpeg 500w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a7017c15b8a5868546750_Photo-2-p-800x.jpeg 800w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a7017c15b8a5868546750_Photo-2-p-1080x.jpeg 1080w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a7017c15b8a5868546750_Photo-2-p-1600x.jpeg 1600w, https://daks2k3a4ib2z.cloudfront.net/561a4f105e3be056688e4698/561a7017c15b8a5868546750_Photo-2.jpg 1800w">
+										</a>
+										<div class="item-block stories">
+											<div class="story-success-block">Success!</div>
+											<a class="item-block-title small" href="stories/help-protect-traditions-in-binh-vietnam.html">Help protect traditions in Binh (Vietnam)</a>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+											<a class="black button item-block-button" href="stories/help-protect-traditions-in-binh-vietnam.html">Read more</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="_2 success-story-block">
+						<h2 class="column-intro-title section-title">2 more great success stories!</h2>
+						<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros tristique.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.&nbsp;</p>
+						<p><a class="link" target="_blank" href="stories-overview.html">Learn more</a></p>
+					</div>
+				</div>
+			</div>
+		</div><!-- light-image-section End -->
+
+		<!-- Color Section Begin -->
+		<div class="color section">
+			<div class="container w-container">
+				<div class="centered title-wrapper">
+					<h2 class="section-title" data-ix="fade-in-scroll">What can you do to help?</h2>
+					<h2 class="section-title subtitle" data-ix="fade-in-scroll">There's a lot&nbsp;of things we need you for.</h2>
+					<div class="section-divider-line" data-ix="fade-in-scroll"></div>
+				</div>
+				<div class="process-row w-row">
+					<div class="overall-column w-col w-col-3 w-col-small-6 w-col-tiny-6" data-ix="fade-in-scroll">
+						<div class="round-icon-wrapper">
+							<img src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e03a81d960e71226580f06_Icon-globe.png"></div>
+						<h4>Donate now</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+					</div>
+					<div class="overall-column w-col w-col-3 w-col-small-6 w-col-tiny-6" data-ix="fade-in-scroll-2">
+						<div class="round-icon-wrapper">
+							<img src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e07c222c3ec31326fcc50e_Icon-arrow-right-white.png">
+						</div>
+						<h4>Take action</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+					</div>
+					<div class="overall-column w-col w-col-3 w-col-small-6 w-col-tiny-6" data-ix="fade-in-scroll-3">
+						<div class="round-icon-wrapper">
+							<img src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e07c2c76cf136903ecedbb_Icon-users-white.png">
+						</div>
+						<h4>Become a partner</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+					</div>
+					<div class="overall-column w-col w-col-3 w-col-small-6 w-col-tiny-6" data-ix="fade-in-scroll-4">
+						<div class="round-icon-wrapper">
+							<img src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55e07c35b34bd36b03b07a58_Icon-facebook.png">
+						</div>
+						<h4>Follow us</h4>
+						<p>Be sure to follow us on:</p>
+						<a class="social-button w-inline-block" href="http://www.facebook.com/" target="_blank">
+							<img class="small-social-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55df8d92e7ff55996458f809_Icon-facebook.png">
+						</a>
+						<a class="social-button w-inline-block" href="http://www.twitter.com/" target="_blank">
+							<img class="small-social-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55df8d9ce0d3619764386a67_Icon-twitter.png">
+						</a>
+						<a class="social-button w-inline-block" href="http://www.linkedin.com/" target="_blank">
+							<img class="small-social-icon" src="../uploads.webflow.com/5440c8f92df526b94a5e4b54/55df8daf8513421e43d63609_Icon-linkedin.png">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div><!-- Color Section End -->
+
+		<!-- Content End -->
+
+		<div class="footer">
+			<div class="w-container">
+				<div class="footer-row w-row">
+					<div class="footer-column w-col w-col-3">
+						<h5 class="footer-title">Follow us</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros el</p>
+						<div class="footer-social-wrapper w-clearfix">
+							<a class="top-some-block w-inline-block" href="http://www.facebook.com/" target="_blank">
+								<img class="top-social-icon" src="img/icons/55df8d92e7ff55996458f809_Icon-facebook.png">
+							</a>
+							<a class="top-some-block w-inline-block" href="http://www.twitter.com/" target="_blank">
+								<img class="top-social-icon" src="img/icons/Icon-twitter.png">
+							</a>
+							<a class="top-some-block w-inline-block" href="http://www.youtube.com/" target="_blank">
+								<img class="top-social-icon" src="img/icons/Icon-youtube.png">
+							</a>
+							<a class="top-some-block w-inline-block" href="http://www.linkedin.com/" target="_blank">
+								<img class="top-social-icon" src="img/icons/Icon-linkedin.png">
+							</a>
+						</div>
+					</div>
+					<div class="footer-column w-col w-col-3">
+						<h5 class="footer-title">Contact us</h5>
+						<ul class="footer-contact-list w-list-unstyled">
+							<li class="footer-contact-list-item">
+								<img class="footer-contact-icon" src="img/icons/icon-home-black.png">
+								<p>Horeya Square,&nbsp;
+									Cairo&nbsp;Egypt</p>
+							</li>
+							<li class="footer-contact-list-item">
+								<p><a class="link footer-link" href="#">(+&nbsp;20)1099014278</a></p>
+								<img class="footer-contact-icon" src="img/icons/Icon-phone.png">
+							</li>
+							<li class="footer-contact-list-item">
+								<p><a class="link footer-link" href="#">mohamedmahmoud94@gmail.com</a></p>
+								<img class="footer-contact-icon" src="img/icons/Icon-mail.png">
+							</li>
+						</ul>
+					</div>
+					<div class="footer-column last w-col w-col-6">
+						<h5 class="footer-title">Newsletter</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros el.&nbsp;Lorem ipsum dolor sit amet.</p>
+						<div class="newsletter-form w-form">
+							<form class="w-clearfix" data-name="Newsletter Form" id="wf-form-Newsletter-Form" name="wf-form-Newsletter-Form">
+								<input class="newsletter-field w-input" data-name="Email" id="email" maxlength="256" name="email" placeholder="Enter your email address" required="required" type="email">
+								<input class="newsletter-submit w-button" data-wait="Please wait..." type="submit" value="Submit">
+							</form>
+							<div class="success-bg w-form-done">
+								<p>Thank you! Your submission has been received!</p>
+							</div>
+							<div class="error-bg w-form-fail">
+								<p>Oops! Something went wrong while submitting the form</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom-footer">
+				<div class="container w-container">
+					<div class="bottom-footer-row w-row">
+						<div class="bottom-footer-col-left w-col w-col-6">
+							<div class="bottom-footer-text">Copyright © Awtad 2019</div>
+						</div>
+						<div class="bottom-footer-col-right w-col w-col-6">
+							<div class="bottom-footer-text">Designed by&nbsp;
+								<a class="link bottom-footer-link" target="_blank" href="#">Mohamed Elmohamadi</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- malaksh da3wa bl libraries dih allah ye5alik -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+		<script src="js/webflow.6a2c15e96.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	</body>
+</html>
